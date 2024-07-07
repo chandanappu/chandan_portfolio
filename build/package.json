@@ -1,0 +1,18 @@
+{
+  "name": "portfolio-2.0",
+  "version": "1.0.0",
+  "main": "script.js",
+  "homepage": "http://chandanappu.github.io/chandan_portfolio",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
+    "build": "mkdir -p build && cp -R * build/ && rm -rf build/.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  }
+}
